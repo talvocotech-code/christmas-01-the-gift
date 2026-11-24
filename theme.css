@@ -1,0 +1,24 @@
+/* 01 · The Gift — deep burgundy velvet, champagne gold, warm fairy lights */
+:root{
+  --bg:#0a0807;--ink:#f6ecd8;--ink-dim:rgba(246,236,216,.74);
+  --accent:#dcbc7e;--accent-ink:#2a0a12;
+  --panel:rgba(38,9,16,.66);--panel-line:rgba(220,188,126,.38);--radius:6px;
+  --f-display:'Cormorant Garamond',Georgia,serif;
+  --spark:#ffe3a8,#fff6dc,#e8c27a,#ffd27a;--bloom:rgba(255,214,150,.95);
+  --tint-bg:linear-gradient(180deg,rgba(20,3,8,.55),rgba(14,2,6,.88));--tint-max:.9;
+  --burst-x:.5;--burst-y:.6;--focus:50% 60%;
+}
+.op-title{font-weight:500;font-style:normal;text-shadow:0 2px 26px rgba(0,0,0,.6)}
+.op-title .l0{font-size:.74em;font-style:italic;font-weight:400;letter-spacing:.02em;color:#f1dfba;margin-bottom:6px}
+.op-eyebrow{color:#dcbc7e}
+
+/* velvet panels with a double gold frame, like a gift-box lid */
+.panel{border-radius:4px;position:relative;box-shadow:0 18px 50px rgba(0,0,0,.45),inset 0 0 0 5px rgba(38,9,16,.0)}
+.panel::before{content:"";position:absolute;inset:7px;border:1px solid rgba(220,188,126,.22);border-radius:2px;pointer-events:none}
+.h{font-style:italic;font-weight:400}
+.btn{border-radius:2px}.btn.ghost{border-color:rgba(220,188,126,.55)}
+.note{border-radius:2px}
+.cd div{border-radius:2px}
+.op-ring{border-radius:50%}
+
+:root{--orn:var(--o-star)}
